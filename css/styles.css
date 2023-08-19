@@ -1,0 +1,33 @@
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+body {
+    /* Body */
+font-family: 'Roboto', sans-serif;
+color: #000
+  }
+  /* reset styles */
+  ul, ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .item { 
+    display: inline; 
+}
+  /**
+    |============================
+    | Header styles
+    |============================
+  */
+  .header {
+  }
+  .header-link {
+  }
+  .header-link:hover,
+  .header-link:focus {
+  }
+  

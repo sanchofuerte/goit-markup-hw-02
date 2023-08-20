@@ -52,6 +52,9 @@ letter-spacing: 1.12px;
   #studio {
     background-color: var(--dark);
   }
+  .buttonstyle {
+    cursor: pointer;
+  }
   .studio-button {
     border-radius: 4px;
 background-color: var(--primary-brand);

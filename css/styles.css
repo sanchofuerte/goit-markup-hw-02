@@ -7,7 +7,6 @@
 :root {
 --text: #434455;
 --primary-brand: #4D5AE5;
---logo-font: "Raleway", sans-serif;
 --acsent: #E7E9FC;
 --light: #F4F4FD;
 --dark: #2E2F42;
@@ -50,7 +49,7 @@ font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.5; /* 150% */
+line-height: 1.5; 
 letter-spacing: 0.02em;
   }
 
@@ -64,10 +63,10 @@ letter-spacing: 0.02em;
  
 .logo {
   color: var(--primary-brand);
-  font-family: var(--logo-font);
+  font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 1.17; /* 116.667% */
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none
@@ -89,7 +88,7 @@ text-decoration: none
 font-family: inherit;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.5; /* 150% */
+line-height: 1.5; 
 letter-spacing: 0.02em;
   }
   .link-address {
@@ -108,7 +107,7 @@ text-align: center;
 font-family: "Roboto", sans-serif;
 font-size: 56px;
 font-weight: 700;
-line-height: 1.07; /* 107.143% */
+line-height: 1.07; 
 letter-spacing: 0.02em;
   }
   
@@ -118,7 +117,7 @@ letter-spacing: 0.02em;
 font-family: inherit;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.11; /* 111.111% */
+line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
   }
@@ -152,7 +151,7 @@ font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5; /* 150% */
+line-height: 1.5; 
 letter-spacing: 0.04em;
   }
   .studio-button:hover,
@@ -200,7 +199,7 @@ font-family: var(--logo-font);
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 1.7; /* 116.667% */
+line-height: 1.7; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
   }
@@ -213,6 +212,6 @@ font-family: "Roboto" sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.5; /* 150% */
+line-height: 1.5; 
 letter-spacing: 0.32px;
   }

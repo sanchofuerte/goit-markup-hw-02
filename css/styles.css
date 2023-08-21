@@ -8,8 +8,7 @@
 :root {
 --text: #434455;
 --primary-brand: #4D5AE5;
---main-font: "Roboto", serif;
---logo-font: "Raleway", serif;
+--logo-font: "Raleway", sans-serif;
 --acsent: #E7E9FC;
 --light: #F4F4FD;
 --dark: #2E2F42;
@@ -23,128 +22,75 @@
 }
 body {
     /* Body */
-font-family: var(--main-font);
+font-family: "Roboto", sans-serif;
 color: var(--text);
+background-color: var(--white);
   }
-  /* reset styles */
-  ul, ol {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
+  .link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--dark)
+          }
+      .link:hover,
+      .link:focus {
+        color: var(--pressed-state);
       }
+          .list {
+            list-style: none
+          }
   .item { 
     display: inline; 
   }
-  /* Header 1 */
-  h1 {
-    color: var(--white);
-text-align: center;
-
-
-font-family: Roboto;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07143; /* 107.143% */
-letter-spacing: 1.12px;
-  }
-  #studio {
-    background-color: var(--dark);
-  }
-  .buttonstyle {
-    cursor: pointer;
-  }
-  .studio-button {
-    border-radius: 4px;
-background-color: var(--primary-brand);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-color: var(--white, #FFF);
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.64px;
-  }
-  .studio-button:hover,
-  .studio-button:focus
-   {
-    border-radius: 4px;
-    background-color: var(--pressed-state);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  }
-  /* Header 2 */
-    h2 {
-      color: var(--dark);
-
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.11; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
-    }
-    /* Header 3 */
-    h3 {color: var(--dark);
-      
-      font-family: Roboto;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.2; /* 120% */
-      letter-spacing: 0.4px;
-    }
- /**
-    |============================
-    | Header styles
-    |============================
-  */
-.logo {
-  color: var(--dark);
-font-family: var(--logo-font);
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 1.16667; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
-}
-.logo>.partlogo {
-  color: var(--pressed-state);
-  font-family: var(--logo-font);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.16667; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-    .header-list-nav:active,
-    .header-list-nav:hover,
-    .header-list-nav:focus {
-    color: var(--pressed-state);
-  }
-  .header-item {
-    color: var(--dark);
-font-family: inherit;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
-  }
-  .address {
+  .contacts {
     color: var(--text);
-/* Body */
 font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
+  }
+
+  /**
+    |============================
+    | Header styles
+    |============================
+  */
+ 
+  
+ 
+.logo {
+  color: var(--primary-brand);
+  font-family: var(--logo-font);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none
+}
+.logo>.partlogo-header {
+  color: var(--dark);
+}
+.logo>.partlogo-footer {
+  color: var(--light);
+}
+    .header-list:active,
+    .header-list:hover,
+    .header-list:focus {
+    color: var(--pressed-state);
+  }
+  
+  .header-item {
+    color: var(--dark);
+font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
   }
 
   .item-address:active,
@@ -154,38 +100,110 @@ letter-spacing: 0.32px;
   }
 
   /* Main */
-  .portfolio-button {
-    border-radius: 4px;
-    border: 1px solid var(--acsent);
-    background-color: var(--light);
-    color: var(--pressed-state, #4D5AE5);
+  .head1 {
+    color: var(--white);
 text-align: center;
-
-/* Button Text */
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 0.02em;
+  }
+  
+  .header2 {
+    color: var(--dark);
+    text-align: center;
+font-family: inherit;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+  }
+  
+  .header3 {color: var(--dark);
+    
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+  }
+  .header2-portfolio {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    color: var(--dark);
+  }
+  .studio {
+    background-color: var(--dark);
+  }
+  .buttonstyle {
+    cursor: pointer;
+  }
+  .studio-button {
+background-color: var(--primary-brand);
+color: var(--white, #FFF);
+font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.64px;
+letter-spacing: 0.04em;
+  }
+  .studio-button:hover,
+  .studio-button:focus
+   {
+    background-color: var(--pressed-state);
+  }
+ 
+    .n-text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--text);
+    }
+  .portfolio-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background-color: var(--light);
+  }
+  .portfolio-button:hover,
+  .portfolio-button:focus {
+    color: var(--white);
+    background-color: var(--pressed-state);
   }
   .portfolio-item {
-    border: 1px solid var(--acsent, #E7E9FC);
 background-color: var(--white, #FFF);
+  }
+  .contacts-4 {
+    background-color: var(--light);
+  }
+  .item-contacts {
+    background-color: var(--white);
   }
   /* Footer */
   .footer {
     background-color: var(--dark);
   }
   .logo-footer {
-    color: var(--light);
+    color: var(--primary-brand);
 font-family: var(--logo-font);
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 1.1667; /* 116.667% */
+line-height: 1.7; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+  }
+  .partlogo-footer {
+    color: var(--light);
   }
   .footer-text {
     color: var(--cloud, #F4F4FD);

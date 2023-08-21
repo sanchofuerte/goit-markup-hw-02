@@ -1,8 +1,4 @@
-/**     
-  |============================
-  | Base styles
-  |============================
-*/
+
 
 :root {
 --text: #434455;
@@ -19,7 +15,7 @@
 --hero-background-color: #2E2F42B2;
 }
 body {
-    /* Body */
+   
 font-family: "Roboto", sans-serif;
 color: var(--text);
 background-color: var(--white);
@@ -53,13 +49,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
   }
 
-  /**
-    |============================
-    | Header styles
-    |============================
-  */
  
-  
  
 .logo {
   color: var(--primary-brand);
@@ -100,7 +90,6 @@ letter-spacing: 0.02em;
     color: var(--pressed-state);
   }
 
-  /* Main */
   .head-one {
     color: var(--white);
 text-align: center;
@@ -189,7 +178,7 @@ background-color: var(--white, #FFF);
   .item-contacts {
     background-color: var(--white);
   }
-  /* Footer */
+  
   .footer {
     background-color: var(--dark);
   }

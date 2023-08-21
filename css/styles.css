@@ -118,7 +118,7 @@ letter-spacing: 0.02em;
 font-family: inherit;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.2; /* 111.111% */
+line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
 text-transform: capitalize;
   }
@@ -128,8 +128,8 @@ text-transform: capitalize;
     font-family: inherit;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.2em;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
   }
   .head-two-portfolio {
     font-family: inherit;

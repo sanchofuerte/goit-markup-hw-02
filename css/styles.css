@@ -136,7 +136,7 @@ text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     color: var(--dark);
   }
   .studio {
@@ -208,10 +208,8 @@ text-transform: uppercase;
     color: var(--light);
   }
   .footer-text {
-    color: var(--cloud, #F4F4FD);
-
-
-font-family: Roboto;
+    color: var(--cloud, #F4F4FD); 
+font-family: "Roboto" sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;

@@ -56,10 +56,10 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none
 }
-.logo>.partlogo-header {
+.partlogo-header {
   color: var(--dark);
 }
-.logo>.partlogo-footer {
+.partlogo-footer {
   color: var(--light);
 }
     .header-list:active,
@@ -67,7 +67,19 @@ text-decoration: none
     .header-list:focus {
     color: var(--pressed-state);
   }
-  
+  .logo-footer {
+    color: var(--primary-brand);
+font-family: var(--logo-font);
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+  }
+  .partlogo-footer {
+    color: var(--light);
+  }
   .header-item {
     color: var(--dark);
 font-family: inherit;
@@ -177,19 +189,7 @@ background-color: var(--white, #FFF);
   .footer {
     background-color: var(--dark);
   }
-  .logo-footer {
-    color: var(--primary-brand);
-font-family: var(--logo-font);
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 1.7; 
-letter-spacing: 0.54px;
-text-transform: uppercase;
-  }
-  .partlogo-footer {
-    color: var(--light);
-  }
+ 
   .footer-text {
     color: var(--cloud, #F4F4FD); 
 font-family: "Roboto" sans-serif;

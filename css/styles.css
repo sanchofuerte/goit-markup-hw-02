@@ -30,9 +30,6 @@ background-color: var(--white);
           .list {
             list-style: none
           }
-  .item { 
-    display: inline; 
-  }
  
   .contacts {
     color: var(--text);

@@ -10,14 +10,12 @@
 --white: #fff;
 }
 body {
-   
 font-family: "Roboto", sans-serif;
 color: var(--text);
 background-color: var(--white);
   }
   .link {
         text-decoration: none;
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -35,10 +33,10 @@ background-color: var(--white);
     color: var(--text);
 font-family: inherit;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+font-style: normal;
   }
 
  
@@ -68,7 +66,6 @@ text-decoration: none
     color: var(--primary-brand);
 font-family: var(--logo-font);
 font-size: 18px;
-font-style: normal;
 font-weight: 800;
 line-height: 1.17; 
 letter-spacing: 0.03em;
@@ -84,9 +81,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-  }
-  .link-address {
-    color:var(--text)
   }
   .item-address:active,
   .item-address:hover,
@@ -142,7 +136,6 @@ background-color: var(--primary-brand);
 color: var(--white, #FFF);
 font-family: inherit;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.04em;
@@ -158,6 +151,7 @@ letter-spacing: 0.04em;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: var(--text);
+      font-weight: 400;
     }
   .portfolio-button {
     font-family: "Roboto", sans-serif;
@@ -176,9 +170,6 @@ letter-spacing: 0.04em;
   .portfolio-item {
 background-color: var(--white, #FFF);
   }
-  .contacts{
-    background-color: var(--light);
-  }
   .item-contacts {
     background-color: var(--white);
   }
@@ -191,7 +182,6 @@ background-color: var(--white, #FFF);
     color: var(--cloud, #F4F4FD); 
 font-family: "Roboto" sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.32px;

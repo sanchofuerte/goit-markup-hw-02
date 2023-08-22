@@ -14,6 +14,8 @@ font-family: "Roboto", sans-serif;
 color: var(--text);
 background-color: var(--white);
   }
+
+  /* headers 1 2 3 */
   .head-one {
     color: var(--white);
 text-align: center;
@@ -34,15 +36,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
   }
-  
-  .head-three {color: var(--dark);
-    
-    font-family: inherit;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-  }
   .head-two-portfolio {
     font-family: inherit;
     font-size: 20px;
@@ -51,9 +44,21 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--dark);
   }
-
+  .head-three {color: var(--dark);
+    
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  
+/* lists */
   .list {
     list-style: none
+  }
+    .item-contacts {
+    background-color: var(--white);
   }
   .link {
         text-decoration: none;
@@ -70,6 +75,8 @@ text-transform: capitalize;
         letter-spacing: 0.02em;
         color: inherit;
           }
+
+    /* paragraphs */      
   .n-text {
             font-size: 16px;
             line-height: 1.5;
@@ -111,6 +118,8 @@ font-style: normal;
   .studio {
     background-color: var(--dark);
   }
+
+  /* buttons */
   .buttonstyle {
     cursor: pointer;
   }
@@ -144,12 +153,7 @@ letter-spacing: 0.04em;
     color: var(--white);
     background-color: var(--pressed-state);
   }
-  .portfolio-item {
-background-color: var(--white, #FFF);
-  }
-  .item-contacts {
-    background-color: var(--white);
-  }
+  
    /* footer */
   .footer {
     background-color: var(--dark);
@@ -157,9 +161,4 @@ background-color: var(--white, #FFF);
  
   .footer-text {
     color: var(--cloud); 
-    font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing:  0.02em;;
   }

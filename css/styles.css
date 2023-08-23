@@ -57,6 +57,13 @@ text-transform: capitalize;
   .list {
     list-style: none
   }
+    .list-address {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--text);
+            font-weight: 400;
+    }
     .item-contacts {
     background-color: var(--white);
   }
@@ -118,7 +125,9 @@ font-style: normal;
   .studio {
     background-color: var(--dark);
   }
-
+  .our-contacts-4 {
+    background-color: var(--light);
+  }
   /* buttons */
   .buttonstyle {
     cursor: pointer;
@@ -160,5 +169,7 @@ letter-spacing: 0.04em;
   }
  
   .footer-text {
-    color: var(--cloud); 
+    color: var(--light); 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }

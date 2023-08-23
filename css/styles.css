@@ -1,4 +1,3 @@
-c
 /* body*/
 :root {
 --text: #434455;
@@ -9,6 +8,7 @@ c
 --pressed-state: #404BBF;
 --white: #fff;
 }
+
 body {
 font-family: "Roboto", sans-serif;
 color: var(--text);
